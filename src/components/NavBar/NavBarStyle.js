@@ -37,6 +37,12 @@ export const NavItem = styled.p`
     padding: 5px;
     font-weight: 400;
 
+    :hover {
+        cursor: pointer;
+        color: gray;
+        
+    }
+
     @media (max-width: 400px) {
         font-size: 12px;
     }
