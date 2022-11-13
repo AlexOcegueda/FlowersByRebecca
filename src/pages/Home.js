@@ -9,17 +9,17 @@ export default function Home() {
     <>
       <NavBar />
       <BannerContainer>
-        <BannerText>FlowersByRebecca</BannerText>
+        <BannerText>Flowers By Rebecca</BannerText>
       </BannerContainer>
       <ContentContainer>
-        <ContentItem src={require("./BeckysFlowers/image7.jpeg")}></ContentItem>
-        <ContentItem src={require("./BeckysFlowers/image2.jpeg")}></ContentItem>
-        <ContentItem src={require("./BeckysFlowers/image3.jpeg")}></ContentItem>
-        <ContentItem src={require("./BeckysFlowers/image8.jpeg")}></ContentItem>
-        <ContentItem src={require("./BeckysFlowers/image8.jpeg")}></ContentItem>
-        <ContentItem src={require("./BeckysFlowers/image6.jpeg")}></ContentItem>
-        <ContentItem src={require("./BeckysFlowers/image7.jpeg")}></ContentItem>
-        <ContentItem src={require("./BeckysFlowers/image2.jpeg")}></ContentItem>
+        <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
+        <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
+        <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
+        <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
+        <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
+        <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
+        <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
+        <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
       </ContentContainer>
       <Footer />
     </>
