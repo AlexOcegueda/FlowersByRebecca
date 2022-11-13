@@ -6,9 +6,10 @@ export const BannerContainer = styled.div`
     justify-content: center;
 `;
 
-export const BannerText = styled.div`
+export const BannerText = styled.p`
     font-weight: 500;
-    font-size: 40px;
+    font-size: 80px;
+    font-family: 'Simonetta', cursive;
 
     @media (max-width: 400px){
         font-size: 30px;
@@ -25,6 +26,12 @@ export const ContentContainer = styled.div`
 `;
 
 export const ContentItem = styled.img`
-    border: 2px solid black;
-    width: 100%;
+    width: 98%;
+    height: 98%;
+
+    :hover {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
 `;
