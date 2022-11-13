@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 
 export const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid gray;
-    padding: 10px;
+    padding: 20px;
     
     @media (max-width: 400px){
         display: flex;
@@ -32,15 +33,17 @@ export const WebsiteName = styled.p`
     }
 `;
 
-export const NavItem = styled.p`
+export const NavItem = styled(Link)`
     align-self: center;
     padding: 5px;
     font-weight: 400;
+    text-decoration: none;
+    color: black;
 
     :hover {
         cursor: pointer;
         color: gray;
-        
+
     }
 
     @media (max-width: 400px) {
@@ -48,14 +51,15 @@ export const NavItem = styled.p`
     }
 `;
 
-export const Contact = styled.p`
+export const Contact = styled(Link)`
     align-self: center;
-    padding: 5px;
-    background-color: blue;
+    padding: 10px;
+    background-color: rgb(36, 160, 237);
     border-radius: 2rem;
     margin-right: 8px;
     color: white;
     font-weight: 600;
+    text-decoration: none;
 
     :hover {
         background-color: lightblue;

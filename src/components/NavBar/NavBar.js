@@ -6,12 +6,12 @@ export default function NavBar() {
         <>
             <Nav>
                 <LeftNav>
-                    <WebsiteName>FlowersByRebecca</WebsiteName>
-                    <NavItem>Home</NavItem>
-                    <NavItem>Services</NavItem>
+                    <WebsiteName>Flowers By Rebecca</WebsiteName>
+                    <NavItem to="/">Home</NavItem>
+                    <NavItem to="/Services">Services</NavItem>
                 </LeftNav>
                 <RightNav>
-                    <Contact>Contact Me</Contact>
+                    <Contact to="/Contact">Contact Me</Contact>
                 </RightNav>
             </Nav>
         </>
