@@ -6,6 +6,7 @@ export const Nav = styled.nav`
     align-items: center;
     background-color: lightslategrey;
     border-bottom: 1px solid black;
+    padding: 10px;
     
     @media (max-width: 400px){
         display: flex;
