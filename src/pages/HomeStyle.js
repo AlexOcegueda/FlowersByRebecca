@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const BannerContainer = styled.div`
-    background-color: orange;
     padding: 130px;
     display: flex;
     justify-content: center;

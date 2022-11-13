@@ -4,8 +4,7 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightslategrey;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
     padding: 10px;
     
     @media (max-width: 400px){
@@ -46,13 +45,16 @@ export const NavItem = styled.p`
 export const Contact = styled.p`
     align-self: center;
     padding: 5px;
-    background-color: lightblue;
+    background-color: blue;
     border-radius: 2rem;
     margin-right: 8px;
     color: white;
+    font-weight: 600;
 
     :hover {
-        background-color: white;
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
     }
 
     @media (max-width: 400px) {
