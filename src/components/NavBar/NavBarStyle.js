@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     border-bottom: 1px solid gray;
     padding: 20px;
     
-    @media (max-width: 400px){
+    @media (max-width: 810px){
         display: flex;
         justify-content: space-around;
     }
@@ -28,7 +28,7 @@ export const WebsiteName = styled.p`
     font-size: 20px;
     padding: 5px;
 
-    @media (max-width: 400px){
+    @media (max-width: 810px){
         font-size: 12px;
         
     }
@@ -47,7 +47,7 @@ export const NavItem = styled(Link)`
 
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 810px) {
         font-size: 12px;
     }
 `;
@@ -68,7 +68,7 @@ export const Contact = styled(Link)`
         cursor: pointer;
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 810px) {
         font-size: 12px;
         margin-right: 0px; // this controls orientation of Bold Name
         padding: 6px;
