@@ -7,11 +7,7 @@ export const Nav = styled.nav`
     align-items: center;
     border-bottom: 1px solid gray;
     padding: 20px;
-    
-    @media (max-width: 810px){
-        display: flex;
-        justify-content: space-around;
-    }
+   
 `;
 
 export const LeftNav = styled.div`
@@ -30,7 +26,6 @@ export const WebsiteName = styled.p`
 
     @media (max-width: 810px){
         font-size: 12px;
-        
     }
 `;
 
