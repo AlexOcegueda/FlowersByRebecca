@@ -29,7 +29,8 @@ export const WebsiteName = styled.p`
     padding: 5px;
 
     @media (max-width: 400px){
-        font-size: 15px;
+        font-size: 12px;
+        
     }
 `;
 
@@ -69,6 +70,7 @@ export const Contact = styled(Link)`
 
     @media (max-width: 400px) {
         font-size: 12px;
-        margin-right: 0px;
+        margin-right: 0px; // this controls orientation of Bold Name
+        padding: 6px;
     }
 `;
