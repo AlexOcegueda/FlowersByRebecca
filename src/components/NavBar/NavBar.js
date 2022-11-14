@@ -1,5 +1,5 @@
 import React from 'react';
-import {Nav, LeftNav, RightNav, NavItem, WebsiteName, Contact} from './NavBarStyle';
+import {Nav, LeftNav, RightNav, NavItem, WebsiteName} from './NavBarStyle';
 
 export default function NavBar() {
   return (
@@ -11,7 +11,6 @@ export default function NavBar() {
                     <NavItem to="/Services">Services</NavItem>
                 </LeftNav>
                 <RightNav>
-                    <Contact to="/Contact">Contact Me</Contact>
                 </RightNav>
             </Nav>
         </>
