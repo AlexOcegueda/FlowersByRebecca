@@ -4,7 +4,7 @@ import {Footer} from './FooterStyle'
 export default function FooterBar() {
   return (
     <>
-      <Footer>Made by Alex</Footer>
+      <Footer></Footer>
     </>
   )
 }
