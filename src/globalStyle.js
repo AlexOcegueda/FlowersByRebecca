@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle} from 'styled-components';
+import { createGlobalStyle} from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
         * {
@@ -6,6 +6,10 @@ const GlobalStyle = createGlobalStyle`
                 margin: 0;
                 padding: 0;
                 font-family: 'Montserrat', sans-serif;
+        }
+
+        ul {
+                list-style: none;
         }
 
 `;

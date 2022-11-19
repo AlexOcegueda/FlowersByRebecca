@@ -1,5 +1,5 @@
-import GlobalStyle from './globalStyle';
 import {Routes, Route} from 'react-router-dom'
+import './App.css'
 
 // pages
 import Home from './pages/Home';
@@ -9,7 +9,6 @@ import ContactMe from './pages/ContactMe';
 function App() {
   return (
     <div className='App'>  
-      <GlobalStyle />
       <Routes>\
         <Route path="/" element={<Home />}/>
         <Route path="/Services" element={<Services />}/>
@@ -20,3 +19,5 @@ function App() {
 }
 
 export default App;
+
+
