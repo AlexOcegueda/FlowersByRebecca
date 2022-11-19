@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 
 export const BannerContainer = styled.div`
     
-    padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,8 +22,7 @@ export const BannerText = styled.p`
 `;
 
 export const Contact = styled(Link)`
-    padding: 5px;
-    margin-top: 20px;
+    padding: 10px;
     background-color: rgb(82,31,31);
     border-radius: 2rem;
     margin-right: 8px;
