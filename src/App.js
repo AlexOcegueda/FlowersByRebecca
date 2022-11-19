@@ -5,8 +5,8 @@ import './App.css'
 import Home from './pages/Home';
 import Services from './pages/Services';
 import ContactMe from './pages/ContactMe';
-import NavBar from './components/NavBar/NavBar';
-import FooterBar from './components/Footer/FooterBar';
+import NavBar from './components/NavBar';
+import FooterBar from './components/FooterBar';
 
 function App() {
   return (
