@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import {Link} from 'react-router-dom';
 
+
 export const BannerContainer = styled.div`
+    
     padding: 100px;
     display: flex;
     flex-direction: column;
@@ -23,7 +25,7 @@ export const BannerText = styled.p`
 export const Contact = styled(Link)`
     padding: 5px;
     margin-top: 20px;
-    background-color: rgb(36, 160, 237);
+    background-color: rgb(82,31,31);
     border-radius: 2rem;
     margin-right: 8px;
     color: white;
@@ -32,7 +34,7 @@ export const Contact = styled(Link)`
     text-decoration: none;
 
     :hover {
-        background-color: lightblue;
+        background-color: white;
         color: black;
         cursor: pointer;
     }
