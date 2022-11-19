@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { React } from 'react';
-import 'bootstrap/dist/js/bootstrap.bundle.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 export default function NavBar() {
 
