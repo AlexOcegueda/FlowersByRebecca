@@ -10,15 +10,15 @@ import FooterBar from './components/Footer/FooterBar';
 
 function App() {
   return (
-    <div className='App'> 
-    <NavBar />
-      <Routes>\
-        <Route path="/" element={<Home />}/>
-        <Route path="/Services" element={<Services />}/>
-        <Route path="/Contact" element={<ContactMe />}/>
-      </Routes>
-    <FooterBar />
-    </div>
+    <>
+      <NavBar />
+        <Routes>\
+          <Route path="/" element={<Home />}/>
+          <Route path="/Services" element={<Services />}/>
+          <Route path="/Contact" element={<ContactMe />}/>
+        </Routes>
+      <FooterBar />
+    </>
   );
 }
 
