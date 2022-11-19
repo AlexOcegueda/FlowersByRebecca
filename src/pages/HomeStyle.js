@@ -3,12 +3,11 @@ import {Link} from 'react-router-dom';
 
 
 export const BannerContainer = styled.div`
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     @media (max-width: 810px){
-        padding: 90px;
+        padding: 0px 35px 0px 35px;
     }
 `;
 
@@ -16,8 +15,9 @@ export const BannerText = styled.p`
     font-weight: 500;
     font-size: 120px;
     font-family: 'Simonetta', cursive;
+    padding-left: 80px;
     @media (max-width: 810px){
-        font-size: 45px;
+        font-size: 65px;
     }
 `;
 

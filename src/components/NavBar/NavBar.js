@@ -20,6 +20,10 @@ export default function NavBar() {
 export const Nav = styled.nav`
     display: flex;
     border-bottom: 1px solid black;
+
+    @media (max-width: 500px) {
+        justify-content: space-between;
+    }
 `;
 
 export const NavItem = styled(Link)`
