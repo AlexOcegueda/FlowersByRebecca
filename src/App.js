@@ -1,6 +1,6 @@
 import {Routes, Route} from 'react-router-dom'
 import './App.css'
-
+import 'bootstrap/dist/css/bootstrap.css'
 // pages
 import Home from './pages/Home';
 import Services from './pages/Services';

@@ -10,14 +10,54 @@ export default function Home() {
           <Contact to="/Contact">Contact Me</Contact>
         </BannerContainer>
         <ContentContainer>
-          <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
-          <ContentItem src={require("./BeckysFlowers/image5.jpeg")}></ContentItem>
-          <ContentItem src={require("./BeckysFlowers/home1.jpg")}></ContentItem>
-          <ContentItem src={require("./BeckysFlowers/home2.jpg")}></ContentItem>
-          <ContentItem src={require("./BeckysFlowers/home3.jpg")}></ContentItem>
-          <ContentItem src={require("./BeckysFlowers/home4.jpg")}></ContentItem>
-          <ContentItem src={require("./BeckysFlowers/home5.jpg")}></ContentItem>
-          <ContentItem src={require("./BeckysFlowers/home6.jpg")}></ContentItem>
+            <div class="card">
+                <ContentItem src={require("./BeckysFlowers/image1.jpeg")}></ContentItem>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>    
+            <div class="card">
+                <ContentItem src={require("./BeckysFlowers/image5.jpeg")}></ContentItem>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <ContentItem src={require("./BeckysFlowers/home6.jpg")}></ContentItem>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <ContentItem src={require("./BeckysFlowers/home5.jpg")}></ContentItem>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <ContentItem src={require("./BeckysFlowers/home4.jpg")}></ContentItem>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <ContentItem src={require("./BeckysFlowers/home3.jpg")}></ContentItem>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <ContentItem src={require("./BeckysFlowers/home2.jpg")}></ContentItem>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <ContentItem src={require("./BeckysFlowers/home1.jpg")}></ContentItem>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>          
         </ContentContainer>
     </>
   )
@@ -79,12 +119,10 @@ export const ContentContainer = styled.div`
 `;
 
 export const ContentItem = styled.img`
-    width: 98%;
-    height: 98%;
+    width: 100%;
+    height: 100%;
 
     :hover {
-        width: 100%;
-        height: 100%;
         cursor: pointer;
     }
 
