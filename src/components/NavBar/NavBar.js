@@ -1,40 +1,38 @@
-import React from 'react';
-import './NavBarStyle.css';
-//import { Nav, DropDownContainer, DropDownText, DropDownBtn, DropDownMenu, DropDownItem } from './NavBarStyle';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { React } from 'react';
+import 'bootstrap/dist/js/bootstrap.bundle.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-export default function NavBar(props) {
-    
+export default function NavBar() {
+
     return (
-        
         <>
-            <nav>
-                    <div class="dropdown">
-                        <div class="products">
-                        <button className='menu'>Menu</button>
-                            <ul>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">About Me</a></li>
-                            </ul>
-                        </div>
-                    </div>
-            </nav>
-       </>
-
-    )
+            <Nav>
+                <NavItem to="/">Home</NavItem>
+                <NavItem to="/Services">Services</NavItem>
+                <NavItem to="/Contact">Contact</NavItem>
+            </Nav>
+        </>
+    );
 
     
 }
 
-/* 
+export const Nav = styled.nav`
+    display: flex;
+    border-bottom: 1px solid black;
+`;
 
-<Nav>
-            <DropDownContainer class="dropdown">
-                <DropDownText class="projects">
-                    <DropDownBtn>Menu</DropDownBtn>
-                    <DropDownMenu>
-                        <DropDownItem>Services</DropDownItem>
-                    </DropDownMenu>
-                </DropDownText>
-            </DropDownContainer>
-        </Nav>
-*/
+export const NavItem = styled(Link)`
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color black;
+    font-family: 'Simonetta', cursive;
+    :hover {
+        color: white;
+    }
+`;  
