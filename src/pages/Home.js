@@ -33,12 +33,13 @@ export const BannerContainer = styled.div`
 `;
 
 export const BannerText = styled.p`
-    font-weight: 500;
-    font-size: 120px;
+    font-weight: 700;
+    font-size: 140px;
     font-family: 'Simonetta', cursive;
-    padding-left: 80px;
+    padding-left: 50px;
     @media (max-width: 810px){
         font-size: 65px;
+        padding-left: 80px;
     }
 `;
 
