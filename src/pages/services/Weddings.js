@@ -27,6 +27,11 @@ export const ImgContainer = styled.ul`
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     grid-auto-flow: dense;
+    margin-right: 30px;
+    
+    @media(max-width: 810px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
 `;
 
 

@@ -42,6 +42,10 @@ export const ContactText = styled.p`
   margin: 0px 150px 40px 150px;
   font-weight: 600;
   font-family: 'Simonetta', cursive;
+
+  @media(max-width: 810px) {
+    margin: 0px 0px 0px 0px;
+  }
 `;
 
 export const InfoContainer = styled.div`
@@ -53,20 +57,31 @@ export const InfoContainer = styled.div`
 
 export const CardContainer = styled.div`
   margin: 0px 150px 0px 150px;
+
+  @media(max-width: 810px) {
+    margin: 0px 0px 0px 0px;
+  }
 `;
 
 export const Info = styled.img`
   width: 100%;
   height: 100%;
-
   border-radius: .3rem;
 `;
 
 export const Row3Container = styled.div`
   display: flex;
+
+  @media(max-width: 810px) {
+    flex-direction: column;
+  }
 `;
 
 export const Map = styled.iframe`
   padding: 10px;
   border-radius: 1rem;
+  
+  @media(max-width: 810px) {
+    padding: 10px 30px 0px 30px;
+  }
 `;
