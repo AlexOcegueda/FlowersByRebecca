@@ -1,13 +1,12 @@
 #services-btn {
     text-decoration: none;
-    padding: 10px;
     font-weight: 400;
     font-size: 20px;
     color: black;
     font-family: 'Simonetta', cursive;
     background-color: transparent;
     border: none;
-
+    margin-bottom: 2px;
     @media(max-width: 540px) {
         font-size: 18px;
     }
