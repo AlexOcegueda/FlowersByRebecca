@@ -6,7 +6,7 @@
     font-family: 'Simonetta', cursive;
     background-color: transparent;
     border: none;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     @media(max-width: 540px) {
         font-size: 18px;
     }
