@@ -52,7 +52,7 @@ export const NavItem = styled(Link)`
     color black;
     font-family: 'Simonetta', cursive;
     :hover {
-        color: white;
+        color: lightslategrayS;
     }
 
     @media(max-width: 540px) {
@@ -60,9 +60,8 @@ export const NavItem = styled(Link)`
     }
 `;  
 
-export const Logo = styled(Link)`
+export const Logo = styled.h2`
     text-decoration: none;
-    padding: 10px;
     margin: 10px;
     font-weight: 900;
     font-size: 30px;
