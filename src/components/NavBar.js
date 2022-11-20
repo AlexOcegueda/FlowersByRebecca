@@ -60,7 +60,7 @@ export const NavItem = styled(Link)`
     color black;
     font-family: 'Simonetta', cursive;
     :hover {
-        color: lightslategrayS;
+        color: lightslategray;
     }
 
     @media(max-width: 540px) {
