@@ -73,7 +73,6 @@ export const BannerContainer = styled.div`
 `;
 
 export const BannerText = styled.p`
-    font-weight: 700;
     font-size: 140px;
     font-family: 'Simonetta', cursive;
     padding-left: 50px;
