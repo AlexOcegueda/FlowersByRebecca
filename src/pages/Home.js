@@ -33,16 +33,16 @@ export const BannerText = styled.p`
 export const Contact = styled(Link)`
     padding: 10px;
     background-color: transparent;
-    border: 2px solid white;
+    border: 4px solid rgb(234, 58, 5);
     border-radius: 2rem;
     margin-right: 8px;
-    color: white;
-    font-weight: 600;
+    color: rgb(234,58,5);
+    font-weight: 800;
     font-size: 15px;
     text-decoration: none;
 
     :hover {
-        background-color: white;
+        background-color: rgb(234, 58, 5);
         color: black;
         cursor: pointer;
     }
@@ -51,8 +51,7 @@ export const Contact = styled(Link)`
         font-size: 15px;
         margin-right: 0px; // this controls orientation of Bold Name
         padding: 10px;
-        border: 2px solid rgb(250,207,91);
-        color: rgb(250,207,91);
+     
     }
 `;
 
