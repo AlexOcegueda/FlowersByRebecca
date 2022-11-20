@@ -7,7 +7,6 @@ import FooterBar from './components/FooterBar';
 
 // pages
 import Home from './pages/Home';
-import Services from './pages/Services';
 import ContactMe from './pages/ContactMe';
 import Prom from './pages/services/Prom';
 import Weddings from './pages/services/Weddings';
@@ -18,7 +17,6 @@ function App() {
       <NavBar />
         <Routes>\
           <Route path="/" element={<Home />}/>
-          <Route path="/Services" element={<Services />}/>
           <Route path="/Contact" element={<ContactMe />}/>
           <Route path='/Weddings' element={<Weddings />}></Route>
           <Route path='/Prom' element={<Prom />}></Route>
