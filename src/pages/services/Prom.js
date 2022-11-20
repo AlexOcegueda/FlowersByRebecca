@@ -25,7 +25,7 @@ export default function Prom() {
 export const ImgContainer = styled.ul`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 5px;
     grid-auto-flow: dense;
 `;
 
@@ -33,14 +33,12 @@ export const ImgContainer = styled.ul`
 export const ImgTall = styled.img`
     width: 100%;
     height: 100%;
-    padding: 5px 5px 0px 5px;
     border-radius: 1rem;
 `;
 
 export const ImgLong = styled.img`
     width: 100%;
     height: 100%;
-    padding: 5px 5px 0px 5px;
     border-radius: 1rem;
     grid-column-end: span 2;
 `;

@@ -33,7 +33,7 @@ export const Nav = styled.nav`
     display: flex;
     border-bottom: 1px solid black;
     align-items: center;
-
+    margin-bottom: 5px;
     @media(max-width: 810px) {
         justify-content: space-between;
     }
