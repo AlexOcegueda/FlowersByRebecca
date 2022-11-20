@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { React } from 'react';
+import './NavBarStyle.css';
 
 export default function NavBar() {
 
@@ -12,7 +13,16 @@ export default function NavBar() {
                 </LeftContainer>
                 <RightContainer>
                     <NavItem to="/">Home</NavItem>
-                    <NavItem to="/Services">Services</NavItem>
+                    <div class="dropdown">
+                        <button id='services-btn' class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </button>
+                        <ul class="dropdown-menu" id='dropdown-menu-id'>
+                            <li><NavItem id='dropdownitem' class="dropdown-item">Weddings</NavItem></li>
+                            <li><NavItem id='dropdownitem' class="dropdown-item">Proms</NavItem></li>
+                            <li><NavItem id='dropdownitem' class="dropdown-item">Other</NavItem></li>
+                        </ul>
+                    </div>
                     <NavItem to="/Contact">Contact</NavItem>
                 </RightContainer>
             </Nav>
@@ -37,7 +47,8 @@ export const Nav = styled.nav`
 `;
 
 export const RightContainer = styled.div`
-    
+    display: flex;
+    align-items: center;
 `;
 
 export const LeftContainer = styled.div`
