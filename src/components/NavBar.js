@@ -13,14 +13,13 @@ export default function NavBar() {
                 </LeftContainer>
                 <RightContainer>
                     <NavItem to="/">Home</NavItem>
-                    <div class="dropdown">
-                        <button id='services-btn' class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div className="dropdown">
+                        <button id='services-btn' className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </button>
-                        <ul class="dropdown-menu" id='dropdown-menu-id'>
-                            <li><NavItem id='dropdownitem' class="dropdown-item">Weddings</NavItem></li>
-                            <li><NavItem id='dropdownitem' class="dropdown-item">Proms</NavItem></li>
-                            <li><NavItem id='dropdownitem' class="dropdown-item">Other</NavItem></li>
+                        <ul className="dropdown-menu" id='dropdown-menu-id'>
+                            <li><NavItem id='dropdownitem' className="dropdown-item" to='/Weddings'>Weddings</NavItem></li>
+                            <li><NavItem id='dropdownitem' className="dropdown-item" to='/Prom'>Proms</NavItem></li>
                         </ul>
                     </div>
                     <NavItem to="/Contact">Contact</NavItem>
