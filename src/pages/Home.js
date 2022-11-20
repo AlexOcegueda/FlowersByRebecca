@@ -48,9 +48,11 @@ export const Contact = styled(Link)`
     }
 
     @media (max-width: 810px) {
-        font-size: 12px;
+        font-size: 15px;
         margin-right: 0px; // this controls orientation of Bold Name
-        padding: 6px;
+        padding: 10px;
+        border: 2px solid rgb(250,207,91);
+        color: rgb(250,207,91);
     }
 `;
 
