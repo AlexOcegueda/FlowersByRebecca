@@ -3,14 +3,14 @@ import styled from "styled-components";
 import {Link} from 'react-router-dom';
 
 export default function Home() {
-  return (
-    <>
-        <BannerContainer>
-          <BannerText>Flowers By Rebecca</BannerText>
-          <Contact to="/Contact">Contact Me</Contact>
-        </BannerContainer>
-    </>
-  )
+    return (
+        <>
+            <BannerContainer>
+                <BannerText>Flowers By Rebecca</BannerText>
+                <Contact to="/Contact">Contact Me</Contact>
+            </BannerContainer>
+        </>
+    )
 }
 
 export const BannerContainer = styled.div`
@@ -51,7 +51,6 @@ export const Contact = styled(Link)`
         font-size: 15px;
         margin-right: 0px; // this controls orientation of Bold Name
         padding: 10px;
-     
     }
 `;
 
